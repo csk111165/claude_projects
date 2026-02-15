@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027E2025B2F3E6008A2821AF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A775E7CA12662DF3D31FB7B4 /* SignUpView.swift */; };
+		042796410EB27C9444D500A6 /* ReviewServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11F0113ABB5C2BD2605E71C /* ReviewServiceTests.swift */; };
+		04606AC5A5940F74AF1D2772 /* TrendingGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7B768022717056EF59BBC5 /* TrendingGridView.swift */; };
+		066977DD79EB03F751090672 /* OrderReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F48218B49A4456BEC83D008 /* OrderReviewView.swift */; };
+		0B480CBCC664B9ACB4AA861D /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5092D3469B3A28D3759F5 /* CheckoutView.swift */; };
+		0F53F2AE61E2AB1CDFD9C4A5 /* ProductGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15BA9AFC13D2A9AF1344E76 /* ProductGridView.swift */; };
+		110611BB96C2CCEB82D489AE /* MockReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3F060F878C8DFBED7ECCF /* MockReviews.swift */; };
+		1217037BC66A24B89481C3AF /* CheckoutFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A283AE807255199CAB00BDF /* CheckoutFlowTests.swift */; };
+		13075057467B1C6AF9FD3410 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C87E0EF56094C77965DA4A /* HomeView.swift */; };
+		139666E53D9B1E8A209BC96F /* PersistenceServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA345EB4713E3DB218399247 /* PersistenceServiceTests.swift */; };
+		13CD0FEB090ACDADF5DC80F2 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF9A2DD527D30091459065 /* ProductService.swift */; };
+		13EDB4CC8E4E613808C7EF88 /* WishlistStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881B4D66272772ABDAF1C57 /* WishlistStoreTests.swift */; };
+		149D5860E2D4D21B836EDC0A /* PaymentFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD555BD978913BFC0A48956B /* PaymentFormView.swift */; };
+		14CA77905D4C3F780E0BB3C9 /* ProductSpecsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0CA097DB850C9ADB6A9C4 /* ProductSpecsView.swift */; };
+		14E3190171642C8B3E8BB7F3 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F0DB101EFAD3400AD7A5D /* CategoryView.swift */; };
+		1801A42A39502230D14D2637 /* OrderCancellationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9559E4B280B5A85638CAAB7E /* OrderCancellationTests.swift */; };
+		24D2D3F4B591A5FF17790239 /* ProductFiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC0A1A275079DE815E7DA53 /* ProductFiltersView.swift */; };
+		28A18D033D5C27E0FB75529C /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0957D7B6DB7D6451AE598BC6 /* SearchBarView.swift */; };
+		2E9DF108042A36248FB96270 /* MockBanners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992F5D3245A1B7C8228453B3 /* MockBanners.swift */; };
+		3923D577E61592C19A9D7B49 /* ProductReviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189F9F25230D24372BA2BF3 /* ProductReviewsView.swift */; };
+		4655F1C847BDB2146C2573F2 /* QuantityStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667D1A0187BB7992DDCBFE3F /* QuantityStepperView.swift */; };
+		496210FAAD134094EF7B0F75 /* CountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504341D92210B0451B338674 /* CountdownTimerView.swift */; };
+		4A13D1317FC238BABADCA2C5 /* AuthStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051392C543FC3FBCA96A1C86 /* AuthStoreTests.swift */; };
+		4BBB0473B787EF2F0106980A /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807E0D3035A8D0121D9F3 /* CategoryGridView.swift */; };
+		4BCD283B724FE035595337DF /* AuthFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDC823B2A80DA49AA94DB7 /* AuthFlowTests.swift */; };
+		4C474E58ED34529AF77CBF30 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94617516B6D3E9C3AC601D69 /* Product.swift */; };
+		4C4F72C41919B36F2A4D5EC5 /* CartStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA95329318455BD0DBC206 /* CartStoreTests.swift */; };
+		501422B496BD60F5BBE3FA3B /* MockCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C68A967B8071A34E8C40C0 /* MockCategories.swift */; };
+		5040C6B77001EFBE0872EF7B /* ValidatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7783BC36205CEB22B9B6841 /* ValidatorsTests.swift */; };
+		5089B67815F4B8527B5F6A70 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E528AC1F24AF0FF340FA22E0 /* SignInView.swift */; };
+		521F24621C2F788D148A680D /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2D2C1BF1F3D9FFFC6BF9C /* Review.swift */; };
+		54383F6C69DB6CE958ACB8AA /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF35D58DB4A4FB1B325F38B /* ProductsListView.swift */; };
+		55F641EEDF103A5171DEA91D /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF01BB53EDB5C1B87E3521CF /* OrderDetailView.swift */; };
+		59FE4D76F314189F6C48F2C2 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE54B060442DF4AA770F467 /* CartItem.swift */; };
+		5AEEF9D0F26C5EC5CA16AC4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0879A00EDB7BDEDE7910BCC5 /* ContentView.swift */; };
+		5CBE18F9EDFB60844D23FC62 /* AddressFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E5F4F96A3A161420CC0E8 /* AddressFormView.swift */; };
+		5D4FC666095E540A6C6F0F82 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9FDCBE38C271F67A6EBE0 /* Deal.swift */; };
+		624C688FD865B2ECD6337F23 /* CheckoutStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F40AB85284923B19E678C0 /* CheckoutStepsView.swift */; };
+		62D5FE9EAEEC14A9BD715BD2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E571D6B0DCF3F5AA5ABE9E05 /* User.swift */; };
+		62E08C07A8D615A5D5763EFE /* PaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F766238567712C56375DA2 /* PaymentsView.swift */; };
+		63E6B006E4F9502256FBA432 /* ShippingAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89663938734C802390D954C /* ShippingAddress.swift */; };
+		65AF530E644E859A290AC8B5 /* RecommendedSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A5350F7049A11B279C1860 /* RecommendedSectionView.swift */; };
+		6623FB5141973E217DFD76D5 /* CartStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FC8E02B49FB7B06B555400 /* CartStore.swift */; };
+		670A0346973DBAD05FD4827C /* HelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18EC4E9B3B37A32E5B0F8F2 /* HelpersTests.swift */; };
+		6A620AAFEDF4D1A23C19701B /* RecentlyViewedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FC5CF903527726E132669 /* RecentlyViewedStoreTests.swift */; };
+		6A8DA5BBB6CF35B1C11C63C2 /* ProductGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5462460E7F9AE9EFBC90E99 /* ProductGalleryView.swift */; };
+		6B210BDD5E0859ECACA61526 /* FormattersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE534C6A663A8C6B22AA198 /* FormattersTests.swift */; };
+		6C1758940C8550F231EF0DC6 /* NovaMartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B933A0A961BCE51C145C9FAE /* NovaMartApp.swift */; };
+		6FA103E362ADA19F40F51384 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23057C119A58E21431D651E /* AccountView.swift */; };
+		71157F3C63AD4E129EF807C0 /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EA133E0956CFE4E40BA40 /* AuthStore.swift */; };
+		726BC5D60B9A599B7F8A7CA1 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B1B60FEB851E685271CFB /* PaymentMethod.swift */; };
+		77492A24098D1056FE063BA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7591E7AADC3C6D03B63D668F /* Constants.swift */; };
+		77A387D02E0F47EEFD000FA0 /* ProductInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC354BAFE715B7DCD4455C8 /* ProductInfoView.swift */; };
+		79D6F593968EB45352D7D426 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362457A9E42BB7F87562FFB /* Banner.swift */; };
+		8268D4A051CD604CF9FBA868 /* ReviewCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550973FD03B4FAC995104943 /* ReviewCardView.swift */; };
+		82EE405630A077A3628429FC /* ShippingFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA04F4200EEDC1F89E49DB /* ShippingFormView.swift */; };
+		8432C507A7A50CAE8E278C37 /* CartSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5556A481E7F5ADE0C5E48F /* CartSummaryView.swift */; };
+		85E985AD5151D2E5D2FA2369 /* ProductServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E678A010E64DCD04B6CEE /* ProductServiceTests.swift */; };
+		8B48EC0D83DA7B0B667162D8 /* NovaMartTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0A133843AC340B0938B2 /* NovaMartTheme.swift */; };
+		8FA26F2448AF622ED03A5503 /* PaymentMethodFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D995877400E75850A63F8F /* PaymentMethodFormView.swift */; };
+		92349EAF75F226C7AD9E56E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85747A8939E721B9E60DB2BE /* Assets.xcassets */; };
+		923B25B05438FC4190897CB9 /* HeroBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FFF5452900DD9CA2F1E0EE /* HeroBannerView.swift */; };
+		924012456F41EE8A42AE1FAC /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63EA3490B27723661B303BB5 /* test.txt */; };
+		9824E70287E17A524DBA37CF /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F3B088EE19BED3F9D4FC3 /* Order.swift */; };
+		999C4FCC8F48A0A05AA47A18 /* PaymentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43BE6F681E1AC22AD42585 /* PaymentStore.swift */; };
+		9C7DA08B675B0EF1D2365B84 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D86F5F7A3BAB095200BF79 /* Category.swift */; };
+		9C7DC5682E9DD63ECACC2D96 /* PaymentStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD97ABD0AC764E80630836E /* PaymentStoreTests.swift */; };
+		9CC1057100CEE8BA990C3005 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3082F1034067F4A3848586AF /* Formatters.swift */; };
+		9CEDAE3C73AD31E0473FFC6D /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381366E7E37794293AA2AE53 /* WishlistView.swift */; };
+		A11D9DE7652F9C703E5ECC28 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F6F64845ACE448E807BD3 /* ProductDetailView.swift */; };
+		A2C7D9EFE170307BCF7EF018 /* RecentlyViewedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF80ADF22C755CBEDC537D0A /* RecentlyViewedStore.swift */; };
+		A36CA7365F3F09BAA2038290 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346B5D5CAD579EE7EFA3F099 /* PersistenceService.swift */; };
+		A4C76266F251E2CAABB94ECB /* DealCountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DA691592AD464211FEED0 /* DealCountdownView.swift */; };
+		A7844B3F23D3BED61839816E /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669640A136A11DA74F0BB793 /* BadgeView.swift */; };
+		A8D70E80AFFE5419EEA2BC86 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E3D79D95B5C3581B1E1FA /* CartItemView.swift */; };
+		AECC23058700E4446992CF86 /* AddressesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0699A63D65BCEAB0AF5FF1 /* AddressesView.swift */; };
+		B0510A6C3DCA2CAC81F5D38E /* RelatedProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17587ED4B43FC62271DE209 /* RelatedProductsView.swift */; };
+		B26C16125739762D05176D35 /* SaveForLaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779BC42F50CC90E4EA5FAC3 /* SaveForLaterView.swift */; };
+		BB2F5DA5D947F87D9B07EA11 /* AddressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA91240053547FFB219628E2 /* AddressStore.swift */; };
+		BC65B2BD89353740DFDE076B /* OrderConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E8F64136A6C30F7B40BA27 /* OrderConfirmationView.swift */; };
+		C342B165EDD37500F688CE68 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE786B169958098D2F9F8E2 /* CartView.swift */; };
+		C4496C3958699CECA343298D /* ReviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C78AB435FF81B425EDF80 /* ReviewService.swift */; };
+		C7FB76A22FE573709DB77164 /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F3F17AE6555CE9548BACE /* Validators.swift */; };
+		C87E2AC1AB0365F4F0391802 /* ProductSortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6620BA836EED8241CDD646 /* ProductSortView.swift */; };
+		C9C52D7E602B43A798B3F33D /* MockProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E29C762F9AA02A815538F /* MockProducts.swift */; };
+		CB29844E87F27C84FD36EE89 /* ProductCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E69D4A1288C6564A535803B /* ProductCarouselView.swift */; };
+		D23E3D3FB18834BF59FAB0CF /* PriceDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AC9B87897A87A20118564D /* PriceDisplayView.swift */; };
+		D6AAAE62C14E4DA6ED421301 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6BED3A3063C767D160E7B /* EmptyStateView.swift */; };
+		D9087FC959742747E204FB93 /* RatingStarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88381C6C3F350162EF3685 /* RatingStarsView.swift */; };
+		D9864D6201278A63A01498A0 /* AddToCartFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97ECC90FA9FDED1E4BCAA6E /* AddToCartFlowTests.swift */; };
+		DCCBF407A4C161F3229ABE0E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6312816312E798FC6CDC86 /* Helpers.swift */; };
+		DCEE14FC4CAA5E913BE35DC0 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BD3204F8AEE213AF84E42 /* ProductCardView.swift */; };
+		DFB4174509CC535736928F72 /* RecentlyViewedSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCB650B85907D005F68A35 /* RecentlyViewedSectionView.swift */; };
+		EA6A25B97E899705406BE346 /* AddressStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884FB6CF2FE4CC4851F8493 /* AddressStoreTests.swift */; };
+		ED3BE238B6072830EBBB22EB /* WishlistStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5158059D9DFE574B9F32A6 /* WishlistStore.swift */; };
+		F6A85A2C2DAEF040C9B7D85B /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24629162340FE1F27A63B15F /* OrdersView.swift */; };
+		FA9609082F70A8241D719AB4 /* DealOfTheDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE7CAE3D154DD275E9C93D /* DealOfTheDayView.swift */; };
+		FCE26221CBC19AB94D5221AB /* MockDeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F589DC14A9367D5C83396 /* MockDeals.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D886BA4E630BB7AFAEC2435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920644AD8E5DB7AD5ACA9183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD05D20E4903D9D70B616A1B;
+			remoteInfo = NovaMart;
+		};
+		8AB94B714AD32B0F7C46DAA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920644AD8E5DB7AD5ACA9183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD05D20E4903D9D70B616A1B;
+			remoteInfo = NovaMart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FFF5452900DD9CA2F1E0EE /* HeroBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroBannerView.swift; sourceTree = "<group>"; };
+		051392C543FC3FBCA96A1C86 /* AuthStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStoreTests.swift; sourceTree = "<group>"; };
+		0879A00EDB7BDEDE7910BCC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0957D7B6DB7D6451AE598BC6 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		0EBE7CAE3D154DD275E9C93D /* DealOfTheDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealOfTheDayView.swift; sourceTree = "<group>"; };
+		1362457A9E42BB7F87562FFB /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		189F3F17AE6555CE9548BACE /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		1A2E29C762F9AA02A815538F /* MockProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProducts.swift; sourceTree = "<group>"; };
+		1C7F6F64845ACE448E807BD3 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		1D4E5F4F96A3A161420CC0E8 /* AddressFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressFormView.swift; sourceTree = "<group>"; };
+		1E6312816312E798FC6CDC86 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		24629162340FE1F27A63B15F /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		3082F1034067F4A3848586AF /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		31C87E0EF56094C77965DA4A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		346B5D5CAD579EE7EFA3F099 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		36D995877400E75850A63F8F /* PaymentMethodFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodFormView.swift; sourceTree = "<group>"; };
+		381366E7E37794293AA2AE53 /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
+		38A5F3E05FF423FBE6220497 /* NovaMartTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NovaMartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C43BE6F681E1AC22AD42585 /* PaymentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStore.swift; sourceTree = "<group>"; };
+		3E7B768022717056EF59BBC5 /* TrendingGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingGridView.swift; sourceTree = "<group>"; };
+		41A5350F7049A11B279C1860 /* RecommendedSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedSectionView.swift; sourceTree = "<group>"; };
+		4881B4D66272772ABDAF1C57 /* WishlistStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistStoreTests.swift; sourceTree = "<group>"; };
+		4B5158059D9DFE574B9F32A6 /* WishlistStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistStore.swift; sourceTree = "<group>"; };
+		4CCDC823B2A80DA49AA94DB7 /* AuthFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFlowTests.swift; sourceTree = "<group>"; };
+		504341D92210B0451B338674 /* CountdownTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerView.swift; sourceTree = "<group>"; };
+		50C68A967B8071A34E8C40C0 /* MockCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCategories.swift; sourceTree = "<group>"; };
+		550973FD03B4FAC995104943 /* ReviewCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCardView.swift; sourceTree = "<group>"; };
+		5884FB6CF2FE4CC4851F8493 /* AddressStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressStoreTests.swift; sourceTree = "<group>"; };
+		5A283AE807255199CAB00BDF /* CheckoutFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutFlowTests.swift; sourceTree = "<group>"; };
+		5C7C78AB435FF81B425EDF80 /* ReviewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewService.swift; sourceTree = "<group>"; };
+		5F1EA133E0956CFE4E40BA40 /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
+		60BF9A2DD527D30091459065 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		62AC9B87897A87A20118564D /* PriceDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceDisplayView.swift; sourceTree = "<group>"; };
+		63EA3490B27723661B303BB5 /* test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		667D1A0187BB7992DDCBFE3F /* QuantityStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityStepperView.swift; sourceTree = "<group>"; };
+		669640A136A11DA74F0BB793 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		68F766238567712C56375DA2 /* PaymentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsView.swift; sourceTree = "<group>"; };
+		6BC0A1A275079DE815E7DA53 /* ProductFiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFiltersView.swift; sourceTree = "<group>"; };
+		6E69D4A1288C6564A535803B /* ProductCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCarouselView.swift; sourceTree = "<group>"; };
+		6E88381C6C3F350162EF3685 /* RatingStarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStarsView.swift; sourceTree = "<group>"; };
+		6EE786B169958098D2F9F8E2 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		713DA691592AD464211FEED0 /* DealCountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCountdownView.swift; sourceTree = "<group>"; };
+		7591E7AADC3C6D03B63D668F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		78FC8E02B49FB7B06B555400 /* CartStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartStore.swift; sourceTree = "<group>"; };
+		7AE6BED3A3063C767D160E7B /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		7F48218B49A4456BEC83D008 /* OrderReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderReviewView.swift; sourceTree = "<group>"; };
+		7F7F3B088EE19BED3F9D4FC3 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		821BD3204F8AEE213AF84E42 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		85747A8939E721B9E60DB2BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BF35D58DB4A4FB1B325F38B /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
+		8D5F669B20BC78D5811E88A5 /* NovaMart.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NovaMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFF0A133843AC340B0938B2 /* NovaMartTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaMartTheme.swift; sourceTree = "<group>"; };
+		8FC354BAFE715B7DCD4455C8 /* ProductInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoView.swift; sourceTree = "<group>"; };
+		93D86F5F7A3BAB095200BF79 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		94617516B6D3E9C3AC601D69 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		9559E4B280B5A85638CAAB7E /* OrderCancellationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCancellationTests.swift; sourceTree = "<group>"; };
+		992F5D3245A1B7C8228453B3 /* MockBanners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBanners.swift; sourceTree = "<group>"; };
+		9BF5092D3469B3A28D3759F5 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		9FE54B060442DF4AA770F467 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		A1F40AB85284923B19E678C0 /* CheckoutStepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutStepsView.swift; sourceTree = "<group>"; };
+		A23057C119A58E21431D651E /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		A5462460E7F9AE9EFBC90E99 /* ProductGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGalleryView.swift; sourceTree = "<group>"; };
+		A775E7CA12662DF3D31FB7B4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A779BC42F50CC90E4EA5FAC3 /* SaveForLaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveForLaterView.swift; sourceTree = "<group>"; };
+		A97ECC90FA9FDED1E4BCAA6E /* AddToCartFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartFlowTests.swift; sourceTree = "<group>"; };
+		ADD97ABD0AC764E80630836E /* PaymentStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStoreTests.swift; sourceTree = "<group>"; };
+		ADF3F060F878C8DFBED7ECCF /* MockReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockReviews.swift; sourceTree = "<group>"; };
+		AE6807E0D3035A8D0121D9F3 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		AF4FC5CF903527726E132669 /* RecentlyViewedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyViewedStoreTests.swift; sourceTree = "<group>"; };
+		AF80ADF22C755CBEDC537D0A /* RecentlyViewedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyViewedStore.swift; sourceTree = "<group>"; };
+		B15BA9AFC13D2A9AF1344E76 /* ProductGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGridView.swift; sourceTree = "<group>"; };
+		B5CCB650B85907D005F68A35 /* RecentlyViewedSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyViewedSectionView.swift; sourceTree = "<group>"; };
+		B933A0A961BCE51C145C9FAE /* NovaMartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaMartApp.swift; sourceTree = "<group>"; };
+		BAD2D2C1BF1F3D9FFFC6BF9C /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		BB1708FF6531D4EE763F112B /* NovaMartUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NovaMartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCA04F4200EEDC1F89E49DB /* ShippingFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingFormView.swift; sourceTree = "<group>"; };
+		BF01BB53EDB5C1B87E3521CF /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
+		BF9B1B60FEB851E685271CFB /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		C18EC4E9B3B37A32E5B0F8F2 /* HelpersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpersTests.swift; sourceTree = "<group>"; };
+		C5AA95329318455BD0DBC206 /* CartStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartStoreTests.swift; sourceTree = "<group>"; };
+		C8E8F64136A6C30F7B40BA27 /* OrderConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationView.swift; sourceTree = "<group>"; };
+		C94F589DC14A9367D5C83396 /* MockDeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDeals.swift; sourceTree = "<group>"; };
+		CA345EB4713E3DB218399247 /* PersistenceServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceServiceTests.swift; sourceTree = "<group>"; };
+		CC5556A481E7F5ADE0C5E48F /* CartSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartSummaryView.swift; sourceTree = "<group>"; };
+		CFE534C6A663A8C6B22AA198 /* FormattersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattersTests.swift; sourceTree = "<group>"; };
+		D17587ED4B43FC62271DE209 /* RelatedProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedProductsView.swift; sourceTree = "<group>"; };
+		D8F9FDCBE38C271F67A6EBE0 /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		DD555BD978913BFC0A48956B /* PaymentFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFormView.swift; sourceTree = "<group>"; };
+		E11F0113ABB5C2BD2605E71C /* ReviewServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewServiceTests.swift; sourceTree = "<group>"; };
+		E528AC1F24AF0FF340FA22E0 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		E571D6B0DCF3F5AA5ABE9E05 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E89663938734C802390D954C /* ShippingAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingAddress.swift; sourceTree = "<group>"; };
+		EA6620BA836EED8241CDD646 /* ProductSortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSortView.swift; sourceTree = "<group>"; };
+		EA91240053547FFB219628E2 /* AddressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressStore.swift; sourceTree = "<group>"; };
+		EB0699A63D65BCEAB0AF5FF1 /* AddressesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesView.swift; sourceTree = "<group>"; };
+		EC7E3D79D95B5C3581B1E1FA /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
+		EF1E678A010E64DCD04B6CEE /* ProductServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServiceTests.swift; sourceTree = "<group>"; };
+		F189F9F25230D24372BA2BF3 /* ProductReviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductReviewsView.swift; sourceTree = "<group>"; };
+		F2D0CA097DB850C9ADB6A9C4 /* ProductSpecsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSpecsView.swift; sourceTree = "<group>"; };
+		F7783BC36205CEB22B9B6841 /* ValidatorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorsTests.swift; sourceTree = "<group>"; };
+		FF3F0DB101EFAD3400AD7A5D /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1903ED2C0E4100CACAF5CDC2 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				5884FB6CF2FE4CC4851F8493 /* AddressStoreTests.swift */,
+				051392C543FC3FBCA96A1C86 /* AuthStoreTests.swift */,
+				C5AA95329318455BD0DBC206 /* CartStoreTests.swift */,
+				ADD97ABD0AC764E80630836E /* PaymentStoreTests.swift */,
+				AF4FC5CF903527726E132669 /* RecentlyViewedStoreTests.swift */,
+				4881B4D66272772ABDAF1C57 /* WishlistStoreTests.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		1D228BB8DD19B37C67660EE4 /* NovaMart */ = {
+			isa = PBXGroup;
+			children = (
+				85747A8939E721B9E60DB2BE /* Assets.xcassets */,
+				66E634E1EB17123AE326B641 /* App */,
+				90F6E7B9C032B0CD2D9AED79 /* Data */,
+				5ED03901370A434562FD87D5 /* Models */,
+				6C9123E0928B561F57FBD5E7 /* Services */,
+				4F0B715977FC161B55B3D1A0 /* Stores */,
+				6B573C5B5A259F74A3823F78 /* Theme */,
+				386D6B1B282DC108BB5008CB /* Utilities */,
+				7526103554E33CCE4F0C9435 /* Views */,
+			);
+			path = NovaMart;
+			sourceTree = "<group>";
+		};
+		2951E789833E971A68EB8E5C /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F6F64845ACE448E807BD3 /* ProductDetailView.swift */,
+				A5462460E7F9AE9EFBC90E99 /* ProductGalleryView.swift */,
+				8FC354BAFE715B7DCD4455C8 /* ProductInfoView.swift */,
+				F189F9F25230D24372BA2BF3 /* ProductReviewsView.swift */,
+				F2D0CA097DB850C9ADB6A9C4 /* ProductSpecsView.swift */,
+				B5CCB650B85907D005F68A35 /* RecentlyViewedSectionView.swift */,
+				D17587ED4B43FC62271DE209 /* RelatedProductsView.swift */,
+				550973FD03B4FAC995104943 /* ReviewCardView.swift */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		386D6B1B282DC108BB5008CB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7591E7AADC3C6D03B63D668F /* Constants.swift */,
+				3082F1034067F4A3848586AF /* Formatters.swift */,
+				1E6312816312E798FC6CDC86 /* Helpers.swift */,
+				189F3F17AE6555CE9548BACE /* Validators.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3F8464628BAC1DCAEE6007B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62AC9B87897A87A20118564D /* PriceDisplayView.swift */,
+				821BD3204F8AEE213AF84E42 /* ProductCardView.swift */,
+				6BC0A1A275079DE815E7DA53 /* ProductFiltersView.swift */,
+				B15BA9AFC13D2A9AF1344E76 /* ProductGridView.swift */,
+				8BF35D58DB4A4FB1B325F38B /* ProductsListView.swift */,
+				EA6620BA836EED8241CDD646 /* ProductSortView.swift */,
+				6E88381C6C3F350162EF3685 /* RatingStarsView.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		4D72B122A20F7F5C6750D2CC /* Wishlist */ = {
+			isa = PBXGroup;
+			children = (
+				381366E7E37794293AA2AE53 /* WishlistView.swift */,
+			);
+			path = Wishlist;
+			sourceTree = "<group>";
+		};
+		4F0B715977FC161B55B3D1A0 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				EA91240053547FFB219628E2 /* AddressStore.swift */,
+				5F1EA133E0956CFE4E40BA40 /* AuthStore.swift */,
+				78FC8E02B49FB7B06B555400 /* CartStore.swift */,
+				3C43BE6F681E1AC22AD42585 /* PaymentStore.swift */,
+				AF80ADF22C755CBEDC537D0A /* RecentlyViewedStore.swift */,
+				4B5158059D9DFE574B9F32A6 /* WishlistStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		5ED03901370A434562FD87D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1362457A9E42BB7F87562FFB /* Banner.swift */,
+				9FE54B060442DF4AA770F467 /* CartItem.swift */,
+				93D86F5F7A3BAB095200BF79 /* Category.swift */,
+				D8F9FDCBE38C271F67A6EBE0 /* Deal.swift */,
+				7F7F3B088EE19BED3F9D4FC3 /* Order.swift */,
+				BF9B1B60FEB851E685271CFB /* PaymentMethod.swift */,
+				94617516B6D3E9C3AC601D69 /* Product.swift */,
+				BAD2D2C1BF1F3D9FFFC6BF9C /* Review.swift */,
+				E89663938734C802390D954C /* ShippingAddress.swift */,
+				E571D6B0DCF3F5AA5ABE9E05 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		66E634E1EB17123AE326B641 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0879A00EDB7BDEDE7910BCC5 /* ContentView.swift */,
+				B933A0A961BCE51C145C9FAE /* NovaMartApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6B573C5B5A259F74A3823F78 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF0A133843AC340B0938B2 /* NovaMartTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		6C9123E0928B561F57FBD5E7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				346B5D5CAD579EE7EFA3F099 /* PersistenceService.swift */,
+				60BF9A2DD527D30091459065 /* ProductService.swift */,
+				5C7C78AB435FF81B425EDF80 /* ReviewService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6F019850A0FF243F92A7F310 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AE6807E0D3035A8D0121D9F3 /* CategoryGridView.swift */,
+				713DA691592AD464211FEED0 /* DealCountdownView.swift */,
+				0EBE7CAE3D154DD275E9C93D /* DealOfTheDayView.swift */,
+				03FFF5452900DD9CA2F1E0EE /* HeroBannerView.swift */,
+				31C87E0EF56094C77965DA4A /* HomeView.swift */,
+				6E69D4A1288C6564A535803B /* ProductCarouselView.swift */,
+				41A5350F7049A11B279C1860 /* RecommendedSectionView.swift */,
+				3E7B768022717056EF59BBC5 /* TrendingGridView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7526103554E33CCE4F0C9435 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F847038A4EC9AB7AE60925C3 /* Account */,
+				983968B2F2CC7F5D2CCFBF58 /* Auth */,
+				F23F92C86B9AFBCD72B37177 /* Cart */,
+				89272A10DEE196879F6FFABD /* Category */,
+				EB46DA442AC5F2D904A1CC06 /* Checkout */,
+				CCAE6FD0A326F16B64C2D5F7 /* Components */,
+				6F019850A0FF243F92A7F310 /* Home */,
+				2951E789833E971A68EB8E5C /* ProductDetail */,
+				3F8464628BAC1DCAEE6007B5 /* Products */,
+				4D72B122A20F7F5C6750D2CC /* Wishlist */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		809E4A19A75754409B85F1BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5F669B20BC78D5811E88A5 /* NovaMart.app */,
+				38A5F3E05FF423FBE6220497 /* NovaMartTests.xctest */,
+				BB1708FF6531D4EE763F112B /* NovaMartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849D033B1A24FDBE49B41483 /* NovaMartTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFE534C6A663A8C6B22AA198 /* FormattersTests.swift */,
+				C18EC4E9B3B37A32E5B0F8F2 /* HelpersTests.swift */,
+				CA345EB4713E3DB218399247 /* PersistenceServiceTests.swift */,
+				EF1E678A010E64DCD04B6CEE /* ProductServiceTests.swift */,
+				E11F0113ABB5C2BD2605E71C /* ReviewServiceTests.swift */,
+				F7783BC36205CEB22B9B6841 /* ValidatorsTests.swift */,
+				1903ED2C0E4100CACAF5CDC2 /* Stores */,
+			);
+			path = NovaMartTests;
+			sourceTree = "<group>";
+		};
+		89272A10DEE196879F6FFABD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FF3F0DB101EFAD3400AD7A5D /* CategoryView.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		90F6E7B9C032B0CD2D9AED79 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				992F5D3245A1B7C8228453B3 /* MockBanners.swift */,
+				50C68A967B8071A34E8C40C0 /* MockCategories.swift */,
+				C94F589DC14A9367D5C83396 /* MockDeals.swift */,
+				1A2E29C762F9AA02A815538F /* MockProducts.swift */,
+				ADF3F060F878C8DFBED7ECCF /* MockReviews.swift */,
+				63EA3490B27723661B303BB5 /* test.txt */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		983968B2F2CC7F5D2CCFBF58 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E528AC1F24AF0FF340FA22E0 /* SignInView.swift */,
+				A775E7CA12662DF3D31FB7B4 /* SignUpView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		CB1177B3FF7FB5DC9E53E2DA /* NovaMartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A97ECC90FA9FDED1E4BCAA6E /* AddToCartFlowTests.swift */,
+				4CCDC823B2A80DA49AA94DB7 /* AuthFlowTests.swift */,
+				5A283AE807255199CAB00BDF /* CheckoutFlowTests.swift */,
+				9559E4B280B5A85638CAAB7E /* OrderCancellationTests.swift */,
+			);
+			path = NovaMartUITests;
+			sourceTree = "<group>";
+		};
+		CCAE6FD0A326F16B64C2D5F7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				669640A136A11DA74F0BB793 /* BadgeView.swift */,
+				504341D92210B0451B338674 /* CountdownTimerView.swift */,
+				7AE6BED3A3063C767D160E7B /* EmptyStateView.swift */,
+				667D1A0187BB7992DDCBFE3F /* QuantityStepperView.swift */,
+				0957D7B6DB7D6451AE598BC6 /* SearchBarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EB46DA442AC5F2D904A1CC06 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				A1F40AB85284923B19E678C0 /* CheckoutStepsView.swift */,
+				9BF5092D3469B3A28D3759F5 /* CheckoutView.swift */,
+				C8E8F64136A6C30F7B40BA27 /* OrderConfirmationView.swift */,
+				7F48218B49A4456BEC83D008 /* OrderReviewView.swift */,
+				DD555BD978913BFC0A48956B /* PaymentFormView.swift */,
+				BDCA04F4200EEDC1F89E49DB /* ShippingFormView.swift */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		EF409EAE7ADCB14F910A40C0 = {
+			isa = PBXGroup;
+			children = (
+				1D228BB8DD19B37C67660EE4 /* NovaMart */,
+				849D033B1A24FDBE49B41483 /* NovaMartTests */,
+				CB1177B3FF7FB5DC9E53E2DA /* NovaMartUITests */,
+				809E4A19A75754409B85F1BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F23F92C86B9AFBCD72B37177 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				EC7E3D79D95B5C3581B1E1FA /* CartItemView.swift */,
+				CC5556A481E7F5ADE0C5E48F /* CartSummaryView.swift */,
+				6EE786B169958098D2F9F8E2 /* CartView.swift */,
+				A779BC42F50CC90E4EA5FAC3 /* SaveForLaterView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		F847038A4EC9AB7AE60925C3 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				A23057C119A58E21431D651E /* AccountView.swift */,
+				EB0699A63D65BCEAB0AF5FF1 /* AddressesView.swift */,
+				1D4E5F4F96A3A161420CC0E8 /* AddressFormView.swift */,
+				BF01BB53EDB5C1B87E3521CF /* OrderDetailView.swift */,
+				24629162340FE1F27A63B15F /* OrdersView.swift */,
+				36D995877400E75850A63F8F /* PaymentMethodFormView.swift */,
+				68F766238567712C56375DA2 /* PaymentsView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4754B84DEB77A3FDB905384B /* NovaMartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D20ADB0CD054B238BF58DE /* Build configuration list for PBXNativeTarget "NovaMartTests" */;
+			buildPhases = (
+				D2CDB0326FBE8754C903DA26 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD2E6BD0F7C6EECF649D134 /* PBXTargetDependency */,
+			);
+			name = NovaMartTests;
+			packageProductDependencies = (
+			);
+			productName = NovaMartTests;
+			productReference = 38A5F3E05FF423FBE6220497 /* NovaMartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B0F239B35943988DE9EE627 /* NovaMartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8C8CD0D9B6CF264D7281AB /* Build configuration list for PBXNativeTarget "NovaMartUITests" */;
+			buildPhases = (
+				840413F8852FF4A494B550EB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150E88C814FF62BFB39D55F3 /* PBXTargetDependency */,
+			);
+			name = NovaMartUITests;
+			packageProductDependencies = (
+			);
+			productName = NovaMartUITests;
+			productReference = BB1708FF6531D4EE763F112B /* NovaMartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD05D20E4903D9D70B616A1B /* NovaMart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DDE7C0086681FEA3A672EC6 /* Build configuration list for PBXNativeTarget "NovaMart" */;
+			buildPhases = (
+				E376FCFE1BC6DBCD5F6609E0 /* Sources */,
+				60A2F5194B2C6CDF2EA56ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NovaMart;
+			packageProductDependencies = (
+			);
+			productName = NovaMart;
+			productReference = 8D5F669B20BC78D5811E88A5 /* NovaMart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		920644AD8E5DB7AD5ACA9183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5B0F239B35943988DE9EE627 = {
+						TestTargetID = CD05D20E4903D9D70B616A1B;
+					};
+					CD05D20E4903D9D70B616A1B = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 643C4E9A85EFAD2D4389C5D8 /* Build configuration list for PBXProject "NovaMart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EF409EAE7ADCB14F910A40C0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD05D20E4903D9D70B616A1B /* NovaMart */,
+				4754B84DEB77A3FDB905384B /* NovaMartTests */,
+				5B0F239B35943988DE9EE627 /* NovaMartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60A2F5194B2C6CDF2EA56ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92349EAF75F226C7AD9E56E3 /* Assets.xcassets in Resources */,
+				924012456F41EE8A42AE1FAC /* test.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840413F8852FF4A494B550EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9864D6201278A63A01498A0 /* AddToCartFlowTests.swift in Sources */,
+				4BCD283B724FE035595337DF /* AuthFlowTests.swift in Sources */,
+				1217037BC66A24B89481C3AF /* CheckoutFlowTests.swift in Sources */,
+				1801A42A39502230D14D2637 /* OrderCancellationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CDB0326FBE8754C903DA26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6A25B97E899705406BE346 /* AddressStoreTests.swift in Sources */,
+				4A13D1317FC238BABADCA2C5 /* AuthStoreTests.swift in Sources */,
+				4C4F72C41919B36F2A4D5EC5 /* CartStoreTests.swift in Sources */,
+				6B210BDD5E0859ECACA61526 /* FormattersTests.swift in Sources */,
+				670A0346973DBAD05FD4827C /* HelpersTests.swift in Sources */,
+				9C7DC5682E9DD63ECACC2D96 /* PaymentStoreTests.swift in Sources */,
+				139666E53D9B1E8A209BC96F /* PersistenceServiceTests.swift in Sources */,
+				85E985AD5151D2E5D2FA2369 /* ProductServiceTests.swift in Sources */,
+				6A620AAFEDF4D1A23C19701B /* RecentlyViewedStoreTests.swift in Sources */,
+				042796410EB27C9444D500A6 /* ReviewServiceTests.swift in Sources */,
+				5040C6B77001EFBE0872EF7B /* ValidatorsTests.swift in Sources */,
+				13EDB4CC8E4E613808C7EF88 /* WishlistStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E376FCFE1BC6DBCD5F6609E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA103E362ADA19F40F51384 /* AccountView.swift in Sources */,
+				5CBE18F9EDFB60844D23FC62 /* AddressFormView.swift in Sources */,
+				BB2F5DA5D947F87D9B07EA11 /* AddressStore.swift in Sources */,
+				AECC23058700E4446992CF86 /* AddressesView.swift in Sources */,
+				71157F3C63AD4E129EF807C0 /* AuthStore.swift in Sources */,
+				A7844B3F23D3BED61839816E /* BadgeView.swift in Sources */,
+				79D6F593968EB45352D7D426 /* Banner.swift in Sources */,
+				59FE4D76F314189F6C48F2C2 /* CartItem.swift in Sources */,
+				A8D70E80AFFE5419EEA2BC86 /* CartItemView.swift in Sources */,
+				6623FB5141973E217DFD76D5 /* CartStore.swift in Sources */,
+				8432C507A7A50CAE8E278C37 /* CartSummaryView.swift in Sources */,
+				C342B165EDD37500F688CE68 /* CartView.swift in Sources */,
+				9C7DA08B675B0EF1D2365B84 /* Category.swift in Sources */,
+				4BBB0473B787EF2F0106980A /* CategoryGridView.swift in Sources */,
+				14E3190171642C8B3E8BB7F3 /* CategoryView.swift in Sources */,
+				624C688FD865B2ECD6337F23 /* CheckoutStepsView.swift in Sources */,
+				0B480CBCC664B9ACB4AA861D /* CheckoutView.swift in Sources */,
+				77492A24098D1056FE063BA4 /* Constants.swift in Sources */,
+				5AEEF9D0F26C5EC5CA16AC4F /* ContentView.swift in Sources */,
+				496210FAAD134094EF7B0F75 /* CountdownTimerView.swift in Sources */,
+				5D4FC666095E540A6C6F0F82 /* Deal.swift in Sources */,
+				A4C76266F251E2CAABB94ECB /* DealCountdownView.swift in Sources */,
+				FA9609082F70A8241D719AB4 /* DealOfTheDayView.swift in Sources */,
+				D6AAAE62C14E4DA6ED421301 /* EmptyStateView.swift in Sources */,
+				9CC1057100CEE8BA990C3005 /* Formatters.swift in Sources */,
+				DCCBF407A4C161F3229ABE0E /* Helpers.swift in Sources */,
+				923B25B05438FC4190897CB9 /* HeroBannerView.swift in Sources */,
+				13075057467B1C6AF9FD3410 /* HomeView.swift in Sources */,
+				2E9DF108042A36248FB96270 /* MockBanners.swift in Sources */,
+				501422B496BD60F5BBE3FA3B /* MockCategories.swift in Sources */,
+				FCE26221CBC19AB94D5221AB /* MockDeals.swift in Sources */,
+				C9C52D7E602B43A798B3F33D /* MockProducts.swift in Sources */,
+				110611BB96C2CCEB82D489AE /* MockReviews.swift in Sources */,
+				6C1758940C8550F231EF0DC6 /* NovaMartApp.swift in Sources */,
+				8B48EC0D83DA7B0B667162D8 /* NovaMartTheme.swift in Sources */,
+				9824E70287E17A524DBA37CF /* Order.swift in Sources */,
+				BC65B2BD89353740DFDE076B /* OrderConfirmationView.swift in Sources */,
+				55F641EEDF103A5171DEA91D /* OrderDetailView.swift in Sources */,
+				066977DD79EB03F751090672 /* OrderReviewView.swift in Sources */,
+				F6A85A2C2DAEF040C9B7D85B /* OrdersView.swift in Sources */,
+				149D5860E2D4D21B836EDC0A /* PaymentFormView.swift in Sources */,
+				726BC5D60B9A599B7F8A7CA1 /* PaymentMethod.swift in Sources */,
+				8FA26F2448AF622ED03A5503 /* PaymentMethodFormView.swift in Sources */,
+				999C4FCC8F48A0A05AA47A18 /* PaymentStore.swift in Sources */,
+				62E08C07A8D615A5D5763EFE /* PaymentsView.swift in Sources */,
+				A36CA7365F3F09BAA2038290 /* PersistenceService.swift in Sources */,
+				D23E3D3FB18834BF59FAB0CF /* PriceDisplayView.swift in Sources */,
+				4C474E58ED34529AF77CBF30 /* Product.swift in Sources */,
+				DCEE14FC4CAA5E913BE35DC0 /* ProductCardView.swift in Sources */,
+				CB29844E87F27C84FD36EE89 /* ProductCarouselView.swift in Sources */,
+				A11D9DE7652F9C703E5ECC28 /* ProductDetailView.swift in Sources */,
+				24D2D3F4B591A5FF17790239 /* ProductFiltersView.swift in Sources */,
+				6A8DA5BBB6CF35B1C11C63C2 /* ProductGalleryView.swift in Sources */,
+				0F53F2AE61E2AB1CDFD9C4A5 /* ProductGridView.swift in Sources */,
+				77A387D02E0F47EEFD000FA0 /* ProductInfoView.swift in Sources */,
+				3923D577E61592C19A9D7B49 /* ProductReviewsView.swift in Sources */,
+				13CD0FEB090ACDADF5DC80F2 /* ProductService.swift in Sources */,
+				C87E2AC1AB0365F4F0391802 /* ProductSortView.swift in Sources */,
+				14CA77905D4C3F780E0BB3C9 /* ProductSpecsView.swift in Sources */,
+				54383F6C69DB6CE958ACB8AA /* ProductsListView.swift in Sources */,
+				4655F1C847BDB2146C2573F2 /* QuantityStepperView.swift in Sources */,
+				D9087FC959742747E204FB93 /* RatingStarsView.swift in Sources */,
+				DFB4174509CC535736928F72 /* RecentlyViewedSectionView.swift in Sources */,
+				A2C7D9EFE170307BCF7EF018 /* RecentlyViewedStore.swift in Sources */,
+				65AF530E644E859A290AC8B5 /* RecommendedSectionView.swift in Sources */,
+				B0510A6C3DCA2CAC81F5D38E /* RelatedProductsView.swift in Sources */,
+				521F24621C2F788D148A680D /* Review.swift in Sources */,
+				8268D4A051CD604CF9FBA868 /* ReviewCardView.swift in Sources */,
+				C4496C3958699CECA343298D /* ReviewService.swift in Sources */,
+				B26C16125739762D05176D35 /* SaveForLaterView.swift in Sources */,
+				28A18D033D5C27E0FB75529C /* SearchBarView.swift in Sources */,
+				63E6B006E4F9502256FBA432 /* ShippingAddress.swift in Sources */,
+				82EE405630A077A3628429FC /* ShippingFormView.swift in Sources */,
+				5089B67815F4B8527B5F6A70 /* SignInView.swift in Sources */,
+				027E2025B2F3E6008A2821AF /* SignUpView.swift in Sources */,
+				04606AC5A5940F74AF1D2772 /* TrendingGridView.swift in Sources */,
+				62D5FE9EAEEC14A9BD715BD2 /* User.swift in Sources */,
+				C7FB76A22FE573709DB77164 /* Validators.swift in Sources */,
+				ED3BE238B6072830EBBB22EB /* WishlistStore.swift in Sources */,
+				9CEDAE3C73AD31E0473FFC6D /* WishlistView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		150E88C814FF62BFB39D55F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD05D20E4903D9D70B616A1B /* NovaMart */;
+			targetProxy = 8AB94B714AD32B0F7C46DAA0 /* PBXContainerItemProxy */;
+		};
+		2AD2E6BD0F7C6EECF649D134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD05D20E4903D9D70B616A1B /* NovaMart */;
+			targetProxy = 2D886BA4E630BB7AFAEC2435 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2459F709C24848E6156ADE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.novamart.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovaMart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NovaMart";
+			};
+			name = Debug;
+		};
+		24ADC55ED3FE4E15E4730D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NovaMart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.novamart.app;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5524CC53649F6388B032D9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.novamart.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovaMart;
+			};
+			name = Release;
+		};
+		56E850BBF9117DF911A26B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		7DE075A9F24DFEBBD73264BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.novamart.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovaMart;
+			};
+			name = Debug;
+		};
+		A1396CA78ED4BB93798DF8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NovaMart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.novamart.app;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B31C0C6B26591889DCCF8CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		E23CE75D014309D2C092C82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.novamart.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovaMart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NovaMart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		643C4E9A85EFAD2D4389C5D8 /* Build configuration list for PBXProject "NovaMart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E850BBF9117DF911A26B08 /* Debug */,
+				B31C0C6B26591889DCCF8CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6DDE7C0086681FEA3A672EC6 /* Build configuration list for PBXNativeTarget "NovaMart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24ADC55ED3FE4E15E4730D32 /* Debug */,
+				A1396CA78ED4BB93798DF8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		72D20ADB0CD054B238BF58DE /* Build configuration list for PBXNativeTarget "NovaMartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2459F709C24848E6156ADE96 /* Debug */,
+				E23CE75D014309D2C092C82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB8C8CD0D9B6CF264D7281AB /* Build configuration list for PBXNativeTarget "NovaMartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE075A9F24DFEBBD73264BD /* Debug */,
+				5524CC53649F6388B032D9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 920644AD8E5DB7AD5ACA9183 /* Project object */;
+}
