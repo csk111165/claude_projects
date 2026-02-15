@@ -62,7 +62,7 @@ export default function SearchBar() {
             setShowSuggestions(true);
           }}
           onFocus={() => setShowSuggestions(true)}
-          className="w-full h-10 px-4 rounded-l-md border-0 text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-[#FF9900]"
+          className="w-full h-10 px-4 rounded-l-md border-0 bg-white text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-[#FF9900]"
         />
         <button
           type="submit"
